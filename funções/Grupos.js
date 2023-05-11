@@ -71,8 +71,13 @@ const Grupos = [
 			nome: `/nome`,
 			telefone: `/tel1`,
 			telefone2: `/tel2`,
+			telefone3: `/tel3`,
 			cnpj: `/cnpj`,
-			placa: `/placa`,
+			placa1: `/placa1`,
+			placa2: `/placa2`,
+			parentes: `/parentes`,
+			beneficios: `/beneficios`,
+			vizinhos: `/vizinhos`,
 		}
 	},
 ];
