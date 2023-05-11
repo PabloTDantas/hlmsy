@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>buscas-pro</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		body {
+			background-color: #000000;
+			color: #FFFFFF;
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			line-height: 1.5;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+		}
+
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+		}
+
+		h1 {
+			font-size: 48px;
+			margin-bottom: 20px;
+		}
+
+		p {
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+
+		.server {
+			color: #00FF00;
+			font-size: 24px;
+			margin-bottom: 20px;
+		}
+		
+		.container img {
+            bwidth: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+         }
+		
+		.contact {
+         color: #FFFFFF;
+         font-size: 18px;
+         margin-bottom: 20px;
+         text-decoration: none;
+         transition: all 0.3s ease;
+         font-family: "Comic Sans MS", cursive, sans-serif;
+         }
+
+		.contact:hover {
+			color: #00FF00;
+			text-decoration: underline;
+		}
+
+		.btn-sair {
+			background-color: #8B0000; /* Cor de fundo */
+			color: #fff; /* Cor do texto */
+			border-radius: 50%; /* Deixa o botão redondo */
+			border: none; /* Remove a borda */
+			padding: 10px 20px; /* Define o espaçamento interno */
+			font-size: 16px; /* Define o tamanho da fonte */
+			position: absolute; /* Define a posição */
+			top: 20px; /* Distância do topo */
+			right: 20px; /* Distância da direita */
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+    <button class="btn-sair" onclick="window.location.href = 'usuario/sair';">Usuário/Sair</button>
+    <img src="https://telegra.ph/file/490d90a6013b0ee112cc6.jpg" alt="Melhores api do momento">
+    <h1>Yubi Buscas</h1>
+    <p class="server">nome: <span class="limit-number"><%= nome %></p>
+    <p class="server">users: <span class="limit-number"><%= registrados %></p>
+    <p class="server">limite: <spam class="limit-number"><%= limit %></p>
+    <p class="server">token: <span class="limit-number"><%= apikey %></p>
+    <a class="contact" href="plano" target="_blank">Contratar plano</a>
+</div>
+</body>
+</html>

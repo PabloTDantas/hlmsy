@@ -1,0 +1,31 @@
+<section id="pricing">
+    <div class="row pricing-content">
+        <center>
+            <%- include('layouts/msg')  %> 
+            <%- include('layouts/errors')  %> 
+        </center>
+    </div>
+    <div class="row pricing-content">
+        <center>
+            <h2>REGISTRAR</h2>
+            <form method="POST" action="/usuario/registrar">
+                <div>
+                    <input style="font-family:Arial, FontAwesome" name="username" type="text" class="form-control" placeholder="&#xf007;   Usuario" required>
+                </div>
+                <div>
+                    <input style="font-family:Arial, FontAwesome" name="password" type="password" class="form-control" placeholder="&#xf13e;   Senha" required>
+                </div>
+                <div>
+                    <input style="font-family:Arial, FontAwesome" name="confirmPassword" type="password" class="form-control" placeholder="&#xf13e;   Confirma Senha" required>
+                </div>
+                <p></p>
+                <button type="submit" class="button button-primary">Registrar</button>
+            </form>	
+            <div>
+                <p> </p>
+                <p>Já tem uma conta?</p>
+                <a class="button button-primary" href="/usuario/entrar">Entrar</a>
+            </div>
+        </center>      
+    </div>
+</section>
