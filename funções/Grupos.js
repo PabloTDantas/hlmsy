@@ -42,8 +42,8 @@ const markDAgua = [
 /CONSULTA DE CPF\n\n/,
 /USUÁRIO: .*/,
 /CONSULTA DE CPF 🔎\n\n「👤」DADO BÁSICOS\n\n/,
-/CONSULTA DE CPF\s?\d?\s?COMPLETA\s?🔍?/gi -> "CONSULTA DE CPF",
-/CONSULTA DE CPF\s?\d?\s?🔍?/gi -> "CONSULTA DE CPF",
+/CONSULTA DE CPF\s?\d?\s?COMPLETA\s?🔍?/gi,  "CONSULTA DE CPF",
+/CONSULTA DE CPF\s?\d?\s?🔍?/gi,  "CONSULTA DE CPF",
 
 ];
 const Grupos = [
