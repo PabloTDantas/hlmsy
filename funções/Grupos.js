@@ -34,7 +34,7 @@ const markDAgua = [
 ];
 const Grupos = [
 	{
-		chat: "consultas_fre",
+		chat: "PUXADAS_VIP",
 		bot: "MkBuscasRobot",
 		cmd: {
 			
