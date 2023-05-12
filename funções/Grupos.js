@@ -66,7 +66,7 @@ const tgApis = [
 	{
 		apiId: 24216953, // coloque apild aqui 
 		apiHash: "0512d08ef5adbaa122eee0a00ad9242a ", // coloque a apiHash aqui 
-		stringSession: "1AQAOMTQ5LjE1NC4xNzUuNTQBuycZpg+0LQtliGVwpYpU1Ev2flPuFZoQQmJTVThsGgCkjbYVHkqzBeU3YIPt0wOtc4KXX82/0espc2WowO+SmdjdgRd7ESIY2/+1RPkaM9Qpm36O2HQxiM4JNBuKj32uu+jURwRM7oGH5oZAq8foG9x5Fh9U67eFHjqMXMlgs+bxFfMVrgxNGuXDBhQxObNeaBDN8S+/1opX2yDrnDYW9PJurVdkSn+TKbrF4GmMRAZLaHjRegeHTzB5+WCRvgvScS67qMNCI5aF56FGOGXWOij68W+a3sfDdqk6MvSmnxtoPBlxJYXggamKtWlOY+onklvPk7YJ8X3AL2fIN5FNTXo=", // coloque a string aqui 
+		stringSession: "1AQAOMTQ5LjE1NC4xNzUuNTQBu3AIsirVZA9mk1PI7efyOohq00n7OWVSfsvT5xepiB7a/c6Rr/T3jfqOperjRVo6GdR2ydL22EsEuVksbVed7oXJfnJJwg5Nkl6YwfzHgmzHLFcik9CZcxA6c/KAH52RpULomumSRzdudWHDKi2vAYYBHuS6kv+6nP21L2xxyU1NuG2PByn+QL3Dgymq5kvpFoWxCyFkIe6SGoAIeyiFzL/N8S7ZHKYGYmsj9KS54iYzgsC3IWDGmnI0VIrocq+uUmJCFI2fMzP0y7fqIUftwOVYPytHAa3XpAnCWWSgk8WlUTGg2dskLivpuvPwkQzutlt5/tHO5k8T18VK7d574A4=", // coloque a string aqui 
 		number: "+5561986757412", // coloque o número do telegram aqui 
 	},
 ];
